@@ -1,6 +1,9 @@
 import restify from 'restify'
 // import { Router } from 'restify-router'
 
+require('/pathdelmong')
+// path del mongo
+
 const server = restify.createServer({
     name: 'firstServer'
 })
